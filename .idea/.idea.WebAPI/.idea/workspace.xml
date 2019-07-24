@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="67b6a6fc-43f3-4cd0-a9ce-65226b0a6af0" name="Default Changelist" comment="test">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebAPI/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebAPI/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebAPI/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebAPI.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebAPI/Controllers/PaymentDetailController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebAPI/Controllers/ValuesController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebAPI/Models/PaymentDetail.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebAPI/Models/PaymentDetailContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebAPI/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebAPI/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebAPI/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebAPI/WebAPI.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebAPI/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebAPI/appsettings.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Microsoft SQL Server - PaymentDetailDB@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Microsoft SQL Server - PaymentDetailDB@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="PaymentDetailDB: database" type="ccb7ac2a:MsImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Microsoft SQL Server - PaymentDetailDB@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="PaymentDetailDB: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Microsoft SQL Server - PaymentDetailDB@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="PaymentDetailDB: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
+        <item name="PaymentDetail: table" type="63ab2ba1:MsImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebAPI/Controllers/PaymentDetailController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="26" column="63" lean-forward="true" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
+              <folding>
+                <marker date="1563934682469" expanded="true" signature="6:219" ph="..." />
+                <marker date="1563934682469" expanded="true" signature="249:2945" ph="{...}" />
+                <marker date="1563934682469" expanded="true" signature="361:2943" ph="{...}" />
+                <marker date="1563934682469" expanded="true" signature="493:545" ph="{...}" />
+                <marker date="1563934682469" expanded="true" signature="686:770" ph="{...}" />
+                <marker date="1563934682469" expanded="true" signature="937:1544" ph="{...}" />
+                <marker date="1563934682469" expanded="true" signature="986:1051" ph="{...}" />
+                <marker date="1563934682469" expanded="true" signature="1140:1219" ph="{...}" />
+                <marker date="1563934682469" expanded="true" signature="1268:1501" ph="{...}" />
+                <marker date="1563934682469" expanded="true" signature="1328:1403" ph="{...}" />
+                <marker date="1563934682469" expanded="true" signature="1424:1487" ph="{...}" />
+                <marker date="1563934682469" expanded="true" signature="1687:1922" ph="{...}" />
+                <marker date="1563934682469" expanded="true" signature="1814:1877" ph="{...}" />
+                <marker date="1563934682469" expanded="true" signature="2079:2307" ph="{...}" />
+                <marker date="1563934682469" expanded="true" signature="2459:2800" ph="{...}" />
+                <marker date="1563934682469" expanded="true" signature="2585:2648" ph="{...}" />
+                <marker date="1563934682469" expanded="true" signature="2850:2937" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E8D55573-7AC6-4A31-A960-E81F1EB8FCC9/16/acab6535/Task`1.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="287" column="44" lean-forward="true" selection-start-line="287" selection-start-column="44" selection-end-line="287" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6BCDFAAE-EEF5-425B-99B4-BFDE66161A46/5e/beea6fc0/QueryableExtensions.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://d9e4a86c-dadb-492d-a9a5-e28405eaa8f3/database/PaymentDetailDB/schema/dbo/table/PaymentDetail">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="1db178e8-1acc-42dc-aea6-df02a04001f0">
+              <filtering>
+                <filter text="" />
+              </filtering>
+              <column-attributes>
+                <column name="%%physloc%%" enabled="false" position="-1" />
+              </column-attributes>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebAPI/appsettings.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="109" selection-start-line="8" selection-start-column="109" selection-end-line="8" selection-end-column="109" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebAPI/Models/PaymentDetail.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+              <folding>
+                <marker date="1563932751423" expanded="true" signature="7:97" ph="..." />
+                <marker date="1563932751423" expanded="true" signature="122:657" ph="{...}" />
+                <marker date="1563932751423" expanded="true" signature="155:655" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebAPI/Models/PaymentDetailContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding>
+                <marker date="1563934755106" expanded="true" signature="61:315" ph="{...}" />
+                <marker date="1563934755106" expanded="true" signature="113:313" ph="{...}" />
+                <marker date="1563934755106" expanded="true" signature="219:240" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebAPI/Migrations/20190102042443_InitialCreate.Designer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+              <folding>
+                <marker date="1547544306000" expanded="false" signature="28:286" ph="..." />
+                <marker date="1547544306000" expanded="true" signature="315:1901" ph="{...}" />
+                <marker date="1547544306000" expanded="true" signature="443:1899" ph="{...}" />
+                <marker date="1547544306000" expanded="true" signature="525:1893" ph="{...}" />
+                <marker date="1547544306000" expanded="true" signature="935:1848" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebAPI/Controllers/ValuesController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+              <folding>
+                <marker date="1547544306000" expanded="false" signature="6:128" ph="..." />
+                <marker date="1547544306000" expanded="true" signature="158:968" ph="{...}" />
+                <marker date="1547544306000" expanded="true" signature="263:966" ph="{...}" />
+                <marker date="1547544306000" expanded="true" signature="368:444" ph="{...}" />
+                <marker date="1547544306000" expanded="true" signature="547:595" ph="{...}" />
+                <marker date="1547544306000" expanded="true" signature="692:712" ph="{...}" />
+                <marker date="1547544306000" expanded="true" signature="824:844" ph="{...}" />
+                <marker date="1547544306000" expanded="true" signature="940:960" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebAPI/Migrations/PaymentDetailContextModelSnapshot.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+              <folding>
+                <marker date="1547544306000" expanded="false" signature="28:238" ph="..." />
+                <marker date="1547544306000" expanded="true" signature="267:1835" ph="{...}" />
+                <marker date="1547544306000" expanded="true" signature="383:1833" ph="{...}" />
+                <marker date="1547544306000" expanded="true" signature="459:1827" ph="{...}" />
+                <marker date="1547544306000" expanded="true" signature="869:1782" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6BCDFAAE-EEF5-425B-99B4-BFDE66161A46/5e/beea6fc0/QueryableExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebAPI/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebAPI/Controllers/PaymentDetailController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebAPI/Migrations/PaymentDetailContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E8D55573-7AC6-4A31-A960-E81F1EB8FCC9/16/acab6535/Task`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebAPI/Models/PaymentDetail.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebAPI/Migrations/20190102042443_InitialCreate.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebAPI/Models/PaymentDetailContext.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d9e4a86c-dadb-492d-a9a5-e28405eaa8f3/console.sql" />
+        <option value="$PROJECT_DIR$/WebAPI/Controllers/PaymentDetailController.ds.cs" />
+        <option value="$PROJECT_DIR$/WebAPI/Startup.cs" />
+        <option value="$PROJECT_DIR$/WebAPI/appsettings.json" />
+        <option value="$PROJECT_DIR$/WebAPI/Migrations/PaymentDetailContextModelSnapshot.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/WebAPI/Models/PaymentDetail.cs" />
+        <option value="$PROJECT_DIR$/WebAPI/Controllers/PaymentDetailController.cs" />
+        <option value="$PROJECT_DIR$/WebAPI/Models/PaymentDetailContext.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-1" />
+    <option name="y" value="25" />
+    <option name="width" value="1602" />
+    <option name="height" value="1176" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <autoscrollFromSource SolutionExplorer="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="WebAPI" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="WebAPI" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="WebAPI" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="WebAPI" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="WebAPI" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="WebAPI" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="WebAPI" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Migrations" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="WebAPI" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="WebAPI" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="WebAPI" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="WebAPI" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="WebAPI" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="WebAPI" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="WebAPI" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Models" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AssemblyExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="5427d58d:AssemblyExplorerRootNode" />
+              <item name="EntityFramework (6.0.0.0, msil, .Net Framework v4.5)" type="5e97225f:AssemblyExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlserver" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.WebAPI">
+    <configuration name="WebAPI" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebAPI/WebAPI.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_NAME" value="WebAPI" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebAPI: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebAPI/WebAPI.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67b6a6fc-43f3-4cd0-a9ce-65226b0a6af0" name="Default Changelist" comment="" />
+      <created>1563755982126</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563755982126</updated>
+      <workItem from="1563755985463" duration="9617000" />
+      <workItem from="1563923071576" duration="6735000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16352000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="36" width="1602" height="1165" extended-state="7" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14092664" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3647738" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39942253" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.3295238" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.32916266" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Performance Profiler" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.3295238" />
+      <window_info anchor="bottom" id="Unit Tests" order="14" />
+      <window_info anchor="bottom" id="REST Client" order="15" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="16" visible="true" weight="0.8691049" />
+      <window_info anchor="bottom" id="Event Log" order="17" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="18" weight="0.32916266" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.1036036" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/WebAPI/Controllers/PaymentDetailController.cs</url>
+          <line>26</line>
+          <properties documentPath="$PROJECT_DIR$/WebAPI/Controllers/PaymentDetailController.cs" initialLine="26">
+            <startOffsets>
+              <option value="709" />
+            </startOffsets>
+            <endOffsets>
+              <option value="760" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WebAPI.sln.DotSettings.user">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d9e4a86c-dadb-492d-a9a5-e28405eaa8f3/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebAPI/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebAPI/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebAPI/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="109" selection-start-line="8" selection-start-column="109" selection-end-line="8" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebAPI/Migrations/PaymentDetailContextModelSnapshot.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+          <folding>
+            <marker date="1547544306000" expanded="false" signature="28:238" ph="..." />
+            <marker date="1547544306000" expanded="true" signature="267:1835" ph="{...}" />
+            <marker date="1547544306000" expanded="true" signature="383:1833" ph="{...}" />
+            <marker date="1547544306000" expanded="true" signature="459:1827" ph="{...}" />
+            <marker date="1547544306000" expanded="true" signature="869:1782" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebAPI/Migrations/20190102042443_InitialCreate.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <marker date="1547544306000" expanded="false" signature="28:286" ph="..." />
+            <marker date="1547544306000" expanded="true" signature="315:1901" ph="{...}" />
+            <marker date="1547544306000" expanded="true" signature="443:1899" ph="{...}" />
+            <marker date="1547544306000" expanded="true" signature="525:1893" ph="{...}" />
+            <marker date="1547544306000" expanded="true" signature="935:1848" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebAPI/Controllers/ValuesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+          <folding>
+            <marker date="1547544306000" expanded="false" signature="6:128" ph="..." />
+            <marker date="1547544306000" expanded="true" signature="158:968" ph="{...}" />
+            <marker date="1547544306000" expanded="true" signature="263:966" ph="{...}" />
+            <marker date="1547544306000" expanded="true" signature="368:444" ph="{...}" />
+            <marker date="1547544306000" expanded="true" signature="547:595" ph="{...}" />
+            <marker date="1547544306000" expanded="true" signature="692:712" ph="{...}" />
+            <marker date="1547544306000" expanded="true" signature="824:844" ph="{...}" />
+            <marker date="1547544306000" expanded="true" signature="940:960" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebAPI/Models/PaymentDetailContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <marker date="1563934755106" expanded="true" signature="61:315" ph="{...}" />
+            <marker date="1563934755106" expanded="true" signature="113:313" ph="{...}" />
+            <marker date="1563934755106" expanded="true" signature="219:240" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebAPI/Models/PaymentDetail.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <marker date="1563932751423" expanded="true" signature="7:97" ph="..." />
+            <marker date="1563932751423" expanded="true" signature="122:657" ph="{...}" />
+            <marker date="1563932751423" expanded="true" signature="155:655" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d9e4a86c-dadb-492d-a9a5-e28405eaa8f3/database/PaymentDetailDB/schema/dbo/table/PaymentDetail">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="1db178e8-1acc-42dc-aea6-df02a04001f0">
+          <filtering>
+            <filter text="" />
+          </filtering>
+          <column-attributes>
+            <column name="%%physloc%%" enabled="false" position="-1" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6BCDFAAE-EEF5-425B-99B4-BFDE66161A46/5e/beea6fc0/QueryableExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E8D55573-7AC6-4A31-A960-E81F1EB8FCC9/16/acab6535/Task`1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="287" column="44" lean-forward="true" selection-start-line="287" selection-start-column="44" selection-end-line="287" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebAPI/Controllers/PaymentDetailController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="26" column="63" lean-forward="true" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
+          <folding>
+            <marker date="1563934682469" expanded="true" signature="6:219" ph="..." />
+            <marker date="1563934682469" expanded="true" signature="249:2945" ph="{...}" />
+            <marker date="1563934682469" expanded="true" signature="361:2943" ph="{...}" />
+            <marker date="1563934682469" expanded="true" signature="493:545" ph="{...}" />
+            <marker date="1563934682469" expanded="true" signature="686:770" ph="{...}" />
+            <marker date="1563934682469" expanded="true" signature="937:1544" ph="{...}" />
+            <marker date="1563934682469" expanded="true" signature="986:1051" ph="{...}" />
+            <marker date="1563934682469" expanded="true" signature="1140:1219" ph="{...}" />
+            <marker date="1563934682469" expanded="true" signature="1268:1501" ph="{...}" />
+            <marker date="1563934682469" expanded="true" signature="1328:1403" ph="{...}" />
+            <marker date="1563934682469" expanded="true" signature="1424:1487" ph="{...}" />
+            <marker date="1563934682469" expanded="true" signature="1687:1922" ph="{...}" />
+            <marker date="1563934682469" expanded="true" signature="1814:1877" ph="{...}" />
+            <marker date="1563934682469" expanded="true" signature="2079:2307" ph="{...}" />
+            <marker date="1563934682469" expanded="true" signature="2459:2800" ph="{...}" />
+            <marker date="1563934682469" expanded="true" signature="2585:2648" ph="{...}" />
+            <marker date="1563934682469" expanded="true" signature="2850:2937" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
